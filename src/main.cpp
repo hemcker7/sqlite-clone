@@ -2,7 +2,7 @@
 #include "MetaCommand.h"
 #include "Statement.h"
 #include "Executor.h"
-// #include "Table.h"
+#include  "Serialization.hpp"
 #include <iostream>
 
 int main(){
@@ -36,6 +36,7 @@ int main(){
         }
         else if(result == PrepareResult::Success){
             executeStatement(statement, table);
+
         }
         else if(result == PrepareResult::SyntaxError){
             std::cout<<"Syntax Error!\n";
