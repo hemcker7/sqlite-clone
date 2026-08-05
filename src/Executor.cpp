@@ -16,7 +16,7 @@ ExecuteResult executeStatement(const Statement& statement, Table& table){
             return ExecuteResult::Success;
         case StatementType::Select :
             std::cout<<"Executing Select operation\n";
-            printTable(table.rows());
+            printTable(table.getAllRows());
             return ExecuteResult::Success;
     }
     return ExecuteResult::Success;

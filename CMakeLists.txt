@@ -14,4 +14,6 @@ add_executable(sqlite_clone
     src/Statement.cpp
     src/Table.cpp
     src/Executor.cpp
+    src/Pager.cpp
+    src/Serialization.cpp
 )

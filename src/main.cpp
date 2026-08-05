@@ -9,6 +9,7 @@ int main(){
     InputBuffer inputBuffer;
     MetaCommandHandler metaCommandHandler;
     Table table;
+    
     while(true){
         inputBuffer.printPrompt();
         if(!inputBuffer.readInput()){

@@ -92,6 +92,22 @@ build CMakeFiles/sqlite_clone.dir/src/Executor.cpp.obj: CXX_COMPILER__sqlite_clo
   OBJECT_FILE_DIR = CMakeFiles\sqlite_clone.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\sqlite_clone.dir
 
+build CMakeFiles/sqlite_clone.dir/src/Pager.cpp.obj: CXX_COMPILER__sqlite_clone_unscanned_ D$:/Codes/sqlite-clone/src/Pager.cpp || cmake_object_order_depends_target_sqlite_clone
+  DEP_FILE = CMakeFiles\sqlite_clone.dir\src\Pager.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -ID:/Codes/sqlite-clone/include
+  OBJECT_DIR = CMakeFiles\sqlite_clone.dir
+  OBJECT_FILE_DIR = CMakeFiles\sqlite_clone.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\sqlite_clone.dir
+
+build CMakeFiles/sqlite_clone.dir/src/Serialization.cpp.obj: CXX_COMPILER__sqlite_clone_unscanned_ D$:/Codes/sqlite-clone/src/Serialization.cpp || cmake_object_order_depends_target_sqlite_clone
+  DEP_FILE = CMakeFiles\sqlite_clone.dir\src\Serialization.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -ID:/Codes/sqlite-clone/include
+  OBJECT_DIR = CMakeFiles\sqlite_clone.dir
+  OBJECT_FILE_DIR = CMakeFiles\sqlite_clone.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\sqlite_clone.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sqlite_clone
@@ -100,7 +116,7 @@ build CMakeFiles/sqlite_clone.dir/src/Executor.cpp.obj: CXX_COMPILER__sqlite_clo
 #############################################
 # Link the executable sqlite_clone.exe
 
-build sqlite_clone.exe: CXX_EXECUTABLE_LINKER__sqlite_clone_ CMakeFiles/sqlite_clone.dir/src/main.cpp.obj CMakeFiles/sqlite_clone.dir/src/InputBuffer.cpp.obj CMakeFiles/sqlite_clone.dir/src/MetaCommand.cpp.obj CMakeFiles/sqlite_clone.dir/src/Statement.cpp.obj CMakeFiles/sqlite_clone.dir/src/Table.cpp.obj CMakeFiles/sqlite_clone.dir/src/Executor.cpp.obj
+build sqlite_clone.exe: CXX_EXECUTABLE_LINKER__sqlite_clone_ CMakeFiles/sqlite_clone.dir/src/main.cpp.obj CMakeFiles/sqlite_clone.dir/src/InputBuffer.cpp.obj CMakeFiles/sqlite_clone.dir/src/MetaCommand.cpp.obj CMakeFiles/sqlite_clone.dir/src/Statement.cpp.obj CMakeFiles/sqlite_clone.dir/src/Table.cpp.obj CMakeFiles/sqlite_clone.dir/src/Executor.cpp.obj CMakeFiles/sqlite_clone.dir/src/Pager.cpp.obj CMakeFiles/sqlite_clone.dir/src/Serialization.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\sqlite_clone.dir
   POST_BUILD = cd .
